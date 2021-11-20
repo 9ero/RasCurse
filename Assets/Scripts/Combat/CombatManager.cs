@@ -157,7 +157,7 @@ public class CombatManager : MonoBehaviour
                         LogPanel.Write("Victoria!");
                         this.isCombatActive = false;
                         yield return new WaitForSeconds(2f);
-                        GameManager.instancia.CambiarEscena("Gane");
+                        GameManager.instancia.SubirNivel();
                     }
 
                     if (defeat)
